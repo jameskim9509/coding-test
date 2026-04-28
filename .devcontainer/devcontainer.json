@@ -9,7 +9,8 @@
       "extensions": [
         "ms-python.python",
         "ms-python.pylint",
-        "ms-python.black-formatter"
+        "ms-python.black-formatter",
+        "Anthropic.claude-code"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
