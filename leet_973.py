@@ -34,3 +34,6 @@ if __name__ == "__main__":
     print(k_closest([[1, 3], [-2, 2]], 1))
     print(k_closest([[3, 3], [5, -1], [-2, 4]], 2))
     print(k_closest([[0, 1], [1, 0]], 2))
+
+# 추가 insight
+# k번째 작은 거 = k개 길이를 갖는 max_heap에서 뽑기 (지속적으로 max를 pop하면서 갱신)
